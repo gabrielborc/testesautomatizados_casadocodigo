@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c82e922-0b36-4af7-b70a-191a8ac72b0e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestesAutomatizados_CasaDoCodigo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TestesAutomatizados_CasaDoCodigo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page.txt" beforeDir="false" afterPath="$PROJECT_DIR$/page.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/casadocodigo/Avaliador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/casadocodigo/leilao/Avaliador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/casadocodigo/TesteDoAvaliador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/casadocodigo/leilao/AvaliadorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/casadocodigo/leilao/Leilao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/casadocodigo/leilao/Leilao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/casadocodigo/leilao/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/casadocodigo/leilao/Usuario.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +43,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15527344" />
     <property name="project.structure.side.proportion" value="0.37471265" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -69,7 +68,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AvaliadorTest">
+  <component name="RunManager" selected="JUnit.LeilaoTest">
     <configuration name="AvaliadorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.casadocodigo.leilao.AvaliadorTest" />
       <module name="TestesAutomatizados_CasaDoCodigo" />
@@ -130,8 +129,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LeilaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestesAutomatizados_CasaDoCodigo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.casadocodigo.leilao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.casadocodigo.leilao" />
+      <option name="MAIN_CLASS_NAME" value="br.com.casadocodigo.leilao.LeilaoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LeilaoTest" />
         <item itemvalue="JUnit.AvaliadorTest" />
         <item itemvalue="JUnit.AvaliadorTest.deveEntenderLancesEmOrdemCrescente" />
         <item itemvalue="JUnit.AvaliadorTest.main" />

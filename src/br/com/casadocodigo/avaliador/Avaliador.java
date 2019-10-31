@@ -1,4 +1,7 @@
-package br.com.casadocodigo.leilao;
+package br.com.casadocodigo.avaliador;
+
+import br.com.casadocodigo.leilao.Lance;
+import br.com.casadocodigo.leilao.Leilao;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;

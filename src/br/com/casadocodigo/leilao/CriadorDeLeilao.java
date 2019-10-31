@@ -1,5 +1,9 @@
 package br.com.casadocodigo.leilao;
 
+import br.com.casadocodigo.usuario.Usuario;
+
+import java.util.Calendar;
+
 public class CriadorDeLeilao {
 
     private Leilao leilao;
@@ -16,7 +20,13 @@ public class CriadorDeLeilao {
         return this;
     }
 
+    public CriadorDeLeilao naData(Calendar antiga) {
+        leilao.setData(antiga);
+        return this;
+    }
+
     public Leilao constroi() {
         return leilao;
     }
+
 }

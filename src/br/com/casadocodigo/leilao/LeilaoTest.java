@@ -2,6 +2,7 @@ package br.com.casadocodigo.leilao;
 
 import static org.junit.Assert.assertEquals;
 
+import br.com.casadocodigo.usuario.Usuario;
 import org.junit.Test;
 
 public class LeilaoTest {

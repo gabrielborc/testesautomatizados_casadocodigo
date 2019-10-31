@@ -1,5 +1,9 @@
-package br.com.casadocodigo.leilao;
+package br.com.casadocodigo.avaliador;
 
+import br.com.casadocodigo.leilao.CriadorDeLeilao;
+import br.com.casadocodigo.leilao.Lance;
+import br.com.casadocodigo.leilao.Leilao;
+import br.com.casadocodigo.usuario.Usuario;
 import org.junit.Before;
 import org.junit.Test;
 

@@ -1,5 +1,7 @@
 package br.com.casadocodigo.leilao;
 
+import br.com.casadocodigo.usuario.Usuario;
+
 public class Lance {
 
     private Usuario usuario;

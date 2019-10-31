@@ -1,4 +1,4 @@
-package br.com.casadocodigo.leilao;
+package br.com.casadocodigo.usuario;
 
 import java.util.Objects;
 

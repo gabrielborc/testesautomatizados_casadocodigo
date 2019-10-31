@@ -1,13 +1,17 @@
 package br.com.casadocodigo.leilao;
 
+import br.com.casadocodigo.usuario.Usuario;
+
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.List;
-import java.util.Objects;
 
 public class Leilao {
 
     private String nome;
     private List<Lance> lances = new ArrayList<>();
+    private boolean encerrado;
+    private Calendar data;
 
     public Leilao(String nome) {
         this.nome = nome;
@@ -27,6 +31,18 @@ public class Leilao {
 
     public void setLances(List<Lance> lances) {
         this.lances = lances;
+    }
+
+    public boolean isEncerrado() {
+        return encerrado;
+    }
+
+    public Calendar getData() {
+        return data;
+    }
+
+    public void setData(Calendar data) {
+        this.data = data;
     }
 
     public void propoe(Lance lance) {
@@ -52,5 +68,8 @@ public class Leilao {
                 && qtdDelancesDo(usuario) < 5;
     }
 
+    public void encerra() {
+        encerrado = true;
+    }
 }
 
